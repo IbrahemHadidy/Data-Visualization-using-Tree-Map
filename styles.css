@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#treemap {
+  margin: 20px auto;
+  position: relative;
+}
+
+#legend {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#legend div {
+  float: left;
+  clear: left;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.hidden {
+  display: none;
+}
+
